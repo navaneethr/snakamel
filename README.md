@@ -1,13 +1,9 @@
-<div style="display: flex; flex-direction: column; align-items: center">
-
-
 ![SnakeCamel](./logo.png)
 
 # Snakamel
 
 ### Utilities to convert objects, arrays, strings to the way you want them to be.
 
-<div>
 
 | Utility        | What it does?                                                |
 |----------------|--------------------------------------------------------------|
@@ -16,8 +12,6 @@
 | camelToSnake   | `camelToSnake('camelCase')`  returns  `camel_case`           |
 | camel2SnakeObj | `camel2SnakeObj({camelCase: 1})`  returns  `{camel_case: 1}` |
 
-</div>
+### Usage
 
-
-
-</div>
+`import {snakeToCamel, snake2CamelObj, camelToSnake, camel2SnakeObj} from 'snakamel';`
