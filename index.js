@@ -1,6 +1,5 @@
 function snakeToCamel(string) {
     let splitStringArr = string.split("_");
-    console.log(splitStringArr);
     return splitStringArr.reduce((acc, curr, i) => {
         curr = i !== 0 ? curr[0].toUpperCase() + curr.slice(1) : curr;
         return acc + curr;
