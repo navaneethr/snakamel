@@ -1,0 +1,16 @@
+{
+  "name": "snakamel",
+  "version": "1.0.0",
+  "description": "Convert strings and objects from snake_case to camelCase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snake_case",
+    "camelCase",
+    "convert"
+  ],
+  "author": "Navaneeth K Rameshwaram",
+  "license": "ISC"
+}
